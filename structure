@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+struct info{
+
+    int age;
+    double number;
+    string name;
+};
+
+int main()
+{
+
+    info a[10010];
+    for(int i=0;i<5;i++)
+    {
+        cin>>a[i].age>>a[i].number>>a[i].name;
+    } 
+    for(int i=0;i<5;i++)
+    {
+        cout<<a[i].age<<" "<<a[i].number<<" "<<a[i].name<<endl;
+    } 
+    return 0;
+}
+
